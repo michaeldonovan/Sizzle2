@@ -1,5 +1,5 @@
 #define Version Trim(FileRead(FileOpen("..\VERSION")))
-#define PluginName "Pamplejuce"
+#define PluginName "Sizzle2"
 #define Publisher "Melatonin"
 #define Year GetDateTimeString("yyyy","","")
 
@@ -21,7 +21,7 @@ Type: filesandordirs; Name: "{commoncf64}\VST3\{#PluginName}Data"
 
 ; MSVC adds a .ilk when building the plugin. Let's not include that.
 [Files]
-Source: "..\Builds\Pamplejuce_artefacts\Release\VST3\{#PluginName}.vst3\*"; DestDir: "{commoncf64}\VST3\{#PluginName}.vst3\"; Excludes: *.ilk; Flags: ignoreversion recursesubdirs;
+Source: "..\Builds\Sizzle2_artefacts\Release\VST3\{#PluginName}.vst3\*"; DestDir: "{commoncf64}\VST3\{#PluginName}.vst3\"; Excludes: *.ilk; Flags: ignoreversion recursesubdirs;
 
 [Run]
 Filename: "{cmd}"; \

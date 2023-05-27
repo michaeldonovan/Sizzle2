@@ -13,10 +13,10 @@ PluginProcessor testPlugin;
 TEST_CASE("Plugin instance name", "[name]")
 {
   CHECK_THAT(testPlugin.getName().toStdString(),
-             Catch::Matchers::Equals("Pamplejuce"));
+             Catch::Matchers::Equals("Sizzle2"));
 }
 
-#ifdef PAMPLEJUCE_IPP
+#ifdef SIZZLE2_IPP
 #include <ipps.h>
 
 TEST_CASE("IPP version", "[ipp]")
