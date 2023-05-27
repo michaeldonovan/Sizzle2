@@ -2,3 +2,9 @@
 	path = JUCE
 	url = https://github.com/juce-framework/JUCE/
 	branch = develop
+[submodule "modules/chowdsp_utils"]
+	path = modules/chowdsp_utils
+	url = https://github.com/Chowdhury-DSP/chowdsp_utils
+[submodule "modules/foleys_gui_magic"]
+	path = modules/foleys_gui_magic
+	url = https://github.com/ffAudio/foleys_gui_magic
