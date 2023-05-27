@@ -10,4 +10,4 @@
 	url = https://github.com/ffAudio/foleys_gui_magic
 [submodule "modules/LUFSMeter"]
 	path = modules/LUFSMeter
-	url = https://github.com/klangfreund/LUFSMeter
+	url = https://github.com/michaeldonovan/LUFSMeter
